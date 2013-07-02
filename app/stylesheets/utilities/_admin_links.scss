@@ -1,0 +1,75 @@
+
+/*
+@styleguide Admin Links (Cogs)
+
+```html
+<a class="al-trigger btn">
+  <i class="icon-settings"></i><i class="icon-mini-arrow-down"></i>
+  <span class="screenreader-only">Discussion Settings</span>
+</a>
+<ul class="al-options">
+  <li><a href="#">Delete</a></li>
+  <li><a href="#">Save</a></li>
+</ul>
+```
+
+### Notes
+
+Generally used in a toolbar. Make sure its the right-most item in
+your UI. The `admin-links` behavior will make it work.
+
+**TODO:**
+
+- Make a new icon that has both the cog and the arrow
+- Rename this because "admin links" is too specific
+
+*/
+
+.admin-links {
+  float: right;
+}
+.al-options {
+  display: none;
+  -webkit-font-smoothing: antialiased;
+  &.ui-menu{
+    display: block;
+  }
+}
+
+.al-options {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0, 0.8);
+  position: absolute;
+  .ui-menu-item a {
+    background-color: black; /* ie<=8 */
+    background-color: rgba(0,0,0, 0.7);
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.5) 1px 0 1px;
+    white-space: nowrap;
+  }
+  .ui-menu-carat {
+    border-color: transparent;
+  }
+  .ui-menu-carat span {
+    border-color: black transparent; /* ie<=8 */
+    border-color: rgba(0,0,0,0.7) transparent;
+  }
+  .ui-state-focus{
+    margin: 0 !important;
+    border: none;
+  }
+}
+
+.admin-link-hover-area:hover .al-trigger,
+.admin-link-hover-area.active .al-trigger,
+.al-trigger.ui-state-active,
+.al-trigger:focus,
+.al-trigger:hover{
+  @include opacity(1);
+}
+
+.al-trigger {
+  padding: 4px;
+  cursor: pointer;
+}

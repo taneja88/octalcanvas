@@ -1,0 +1,48 @@
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+LOG:  database system was shut down at 2013-06-10 15:13:28 IST
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 53548) running in data directory "/usr/local/var/postgres"?
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 53548) running in data directory "/usr/local/var/postgres"?
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 53548) running in data directory "/usr/local/var/postgres"?
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-10 15:30:50 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "postgres" does not exist
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 53626) running in data directory "/usr/local/var/postgres"?
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  role "canvas" does not exist
+FATAL:  database "canvas_production" does not exist
+FATAL:  database "canvas_production" does not exist
+FATAL:  database "canvas_production" does not exist
+FATAL:  database "canvas_production" does not exist
+FATAL:  database "canvas_production" does not exist
+FATAL:  database "canvas_production" does not exist
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+LOG:  shutting down
+LOG:  database system is shut down
+postgres cannot access the server configuration file "/usr/local/pgsql/data/postgresql.conf": No such file or directory
