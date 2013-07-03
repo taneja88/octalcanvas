@@ -93,7 +93,7 @@ group :mysql do
   gem 'mysql2',       '0.2.18'
 end
 
-group :postgres, :production do
+group :postgres do
   gem 'pg',           '0.15.0'
 end
 
