@@ -43,3 +43,11 @@
 /public/javascripts/plugins/
 /public/plugins/
 /spec/coffeescripts/plugins/
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
